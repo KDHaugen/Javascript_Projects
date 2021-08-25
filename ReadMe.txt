@@ -1,0 +1,1 @@
+This is the github repository for Kyle Haugen's Javascript Projects for The Tech Academy.
