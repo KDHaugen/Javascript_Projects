@@ -55,3 +55,15 @@ console.log(2+2); //console test
 console.log(10 < 2); //display false in console
 console.log(10 == 10) //display true in console using "=="
 console.log(10 == 15) //display false in console using "=="
+
+console.log(1===1);
+console.log(1===2);
+console.log(1==="1");
+console.log(1==="2");
+console.log(1 != 2);
+console.log(1 != 1);
+
+console.log(1<2 && 1==1);
+console.log(1>2 && 1==1);
+console.log(1<2 || 1==1);
+console.log(1>2 || 1==2);
