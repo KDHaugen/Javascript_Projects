@@ -21,7 +21,7 @@ function cap_Function(){
 
 function numToString_Function(){
     var number = 200;
-    document.getElementById("Tostring").innerHTML = number.toString();
+    document.getElementById("ToString").innerHTML = number.toString();
 }
 
 function precise_Function(){
