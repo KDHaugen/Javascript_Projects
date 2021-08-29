@@ -14,3 +14,16 @@ function GN_function(){
         document.getElementById("GN_message").innerHTML = "Stay up and work Kyle."
     }
 }
+
+function Time_Function() {
+    var Time = new Date().getHours();
+    var Reply;
+    if (Time < 12 == Time > 0){
+        Reply = "It is morning time!";
+    }else if (Time >= 12 == Time < 18){
+        Reply = "It is afternoon."
+    }else{
+        Reply = "It is Evening time."
+    }
+    document.getElementById("Time_of_day").innerHTML = Reply;
+}
