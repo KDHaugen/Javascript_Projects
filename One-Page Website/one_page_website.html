@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Seeds of Aether</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="one_page_css.css">
+		<script src="JS/one_page.js" ></script>
+	</head>
+	
+	<body>
+		<!-- NAV -->
+		<div class="wrap">
+			<div class="menu-container">
+				<ul>
+					<a href="#home" id="link"><li>HOME</li></a>
+					<a href="#gallery" id="link"><li>GALLERY</li></a>
+					<a href="#contact" id="link"><li>RESERVATIONS</li></a>
+				</ul>
+			</div>
+		</div>
+		<!-- END NAV -_>
+		<!-- HOME -->
+		<div id="home">
+			<div>
+				<div>
+					<span>Seeds of Aether</span>
+				</div>
+			</div>
+		</div>		
+		<!-- END HOME -->
+		
+		<!-- Trailer -->
+		
+		<section>
+			<div id="trailer">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/KLjwwKLWGk8" title="YouTube video player" 
+				frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+				allowfullscreen></iframe>
+			</div>
+		</section>
+		
+		<!-- GALLERY -->
+		<section>
+			<div id="gallery">
+				<h1>Gallery</h1>
+								<!-- Images used to open the lightbox -->
+				<div class="row">
+					<div class="column">
+					<img src="images/thumb/crackers.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+					</div>
+					<div class="column">
+					<img src="images/thumb/Dony.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+					</div>
+					<div class="column">
+					<img src="images/thumb/Iroh.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+					</div>
+					<div class="column">
+					<img src="images/thumb/Kaboom.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+					</div>
+				</div>
+				
+				<!-- The Modal/Lightbox -->
+				<div id="myModal" class="modal">
+					<span class="close cursor" onclick="closeModal()">&times;</span>
+					<div class="modal-content">
+				
+					<div class="mySlides">
+						<div class="numbertext">1 / 4</div>
+						<img src="images/thumb/crackers.png" style="width:100%">
+					</div>
+				
+					<div class="mySlides">
+						<div class="numbertext">2 / 4</div>
+						<img src="images/thumb/Dony.png" style="width:100%">
+					</div>
+				
+					<div class="mySlides">
+						<div class="numbertext">3 / 4</div>
+						<img src="images/thumb/Iroh.png" style="width:100%">
+					</div>
+				
+					<div class="mySlides">
+						<div class="numbertext">4 / 4</div>
+						<img src="images/thumb/Kaboom.png" style="width:100%">
+					</div>
+				
+					<!-- Next/previous controls -->
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				
+					<!-- Caption text -->
+					<div class="caption-container">
+						<p id="caption"></p>
+					</div>
+				
+					<!-- Thumbnail image controls -->
+					<div class="column">
+						<img class="demo" src="images/thumb/crackers.png" onclick="currentSlide(1)" alt="Crackers">
+					</div>
+				
+					<div class="column">
+						<img class="demo" src="images/thumb/Dony.png" onclick="currentSlide(2)" alt="Dony">
+					</div>
+				
+					<div class="column">
+						<img class="demo" src="images/thumb/Iroh.png" onclick="currentSlide(3)" alt="Iroh">
+					</div>
+				
+					<div class="column">
+						<img class="demo" src="images/thumb/Kaboom.png" onclick="currentSlide(4)" alt="Kaboom">
+					</div>
+					</div>
+				</div>
+
+
+
+
+
+
+
+
+
+				<div>
+					<!-- PHOTO-CONTAINER 1 -->
+					<div class="photo_container">
+						<div>
+							<img src="./images/thumb/lyca.png" alt="">
+							<div>
+								<h3>Click to Enlarge</h1>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO-CONTAINER 1 -->
+					
+					<!-- PHOTO-CONTAINER 2 -->
+					<div class="photo_container">
+						<div>
+							<img src="./images/thumb/iroh.png" alt="">
+							<div>
+								<h3>Click to Enlarge</h1>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO-CONTAINER 2 -->
+					
+					<!-- PHOTO-CONTAINER 3 -->
+					<div class="photo_container">
+						<div>
+							<img src="./images/thumb/kaboom.png" alt="">
+							<div>
+								<h3>Click to Enlarge</h1>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO-CONTAINER 3 -->
+					
+					<!-- PHOTO-CONTAINER 4 -->
+					<div class="photo_container">
+						<div>
+							<img src="./images/thumb/Dony.png" alt="">
+							<div>
+								<h3>Click to Enlarge</h1>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO-CONTAINER 4 -->
+					
+					<!-- PHOTO-CONTAINER 5 -->
+					<div class="photo_container">
+						<div>
+							<img src="./images/thumb/crackers.png" alt="">
+							<div>
+								<h3>Click to Enlarge</h1>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO-CONTAINER 5 -->
+					
+				</div>
+			</div>
+		</section>
+		
+		<!-- END GALLERY -->
+		
+		<!-- RSVP -->
+		<section>
+			<div id="contact">
+				<div>
+					<h1>Contact the Team!</h1>
+					<div>
+						<h2><span>Any feedback on our characters is highly appreciated.</span>
+							<br /> Feel free to leave your info.
+						</h2>
+						<p>
+							Please provide us with your basic contact information.
+						</p>
+						<div>
+							<form action="" method"post">
+								<input class="rsvp" type="text" value="First Name">
+								<input class="rsvp" type="text" value="Last Name">
+								<input class="rsvp" type="text" value="Email Address">
+								<input class="rsvp" type="text" value="Phone Number">
+								<div class="form-spacer">
+									<label class"terms">Terms and Conditions</label>
+								</div>
+								<div>
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END RSVP -->
+		
+		<!-- FOOTER -->
+		<div>
+			www.seedsofaether.com &nbsp;&nbsp; &copy; 2016
+		</div>
+		<!-- END FOOTER -->
+			
+	
+	</body>
+</html>
