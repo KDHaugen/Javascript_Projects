@@ -1,7 +1,7 @@
 function getReceipt() {
     //This initializes our string so it can get passed from
     //function to function, gorwin line by line into a full receipt
-    var text1 = "<h3>You Ordered:</3>";
+    var text1 = "<h3>You Ordered:</h3>";
     var runningTotal = 0;
     var sizeTotal = 0;
     var sizeArray = document.getElementsByClassName("size");
@@ -54,5 +54,5 @@ function getTopping(runningTotal, text1) {
     console.log("topping text1: " +text1);
     console.log("Purchase Total: "+"$"+runningTotal+".00");
     document.getElementById("showText").innerHTML=text1;
-    document.getElementById("totalPrize").innerHTML = "<h3>Total: <strong>$"+runningTotal+".00"+"</strong><h3>";
+    document.getElementById("totalPrice").innerHTML = "<h3>Total: <strong>$"+runningTotal+".00"+"</strong><h3>";
 };
